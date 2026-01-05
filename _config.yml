@@ -1,0 +1,18 @@
+title: Technical Blog
+description: A minimalistic technical blog
+author: Your Name
+email: your.email@example.com
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
